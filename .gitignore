@@ -1,0 +1,22 @@
+# --- Python Specifics ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# --- Project Specific Generated Files ---
+# Do not track the trained machine learning model binary
+anomaly_model.pkl
+
+# Do not track the local SQL database records file
+*.db
+fraud_alerts.db
+
+# --- Environment & IDE Specifics ---
+.venv/
+venv/
+env/
+.env
+.vscode/
+.DS_Store
